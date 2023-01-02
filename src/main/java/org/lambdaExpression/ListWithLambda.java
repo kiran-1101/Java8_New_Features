@@ -12,6 +12,7 @@ public class ListWithLambda {
         arr.add(30);
         arr.add(40);
         arr.add(50);
+        arr.add(60);
         System.out.println("before sorting:-"+arr);
         Collections.sort(arr,(I1, I2)->(I1>I2)?-1:(I1<I2)?1:0);
         System.out.println("after soring:-"+arr);
