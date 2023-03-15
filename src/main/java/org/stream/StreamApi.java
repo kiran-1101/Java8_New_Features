@@ -25,6 +25,7 @@ public class StreamApi {
         arr.add(40);
         arr.add(50);
         arr.add(60);
+        arr.add(70);
 
         arr.stream().filter(integer -> integer%2==0).forEach(x-> System.out.println(x));                        //print without storing
         //filter
